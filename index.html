@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JS Intermediário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="texto-principal">
+            <h1 class="titulo">FICOU COM DÚVIDA?<br>
+                NOS MANDE UMA MENSAGEM!</h1>
+    
+            <p class="mensagem-suporte">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+        <form class="formulario" action="index.html" method="get">
+            <div class="container">
+                <input class="input" type="text" name="nome" id="nome" placeholder="Nome completo *">
+                <p class="mensagem-erro">campo obrigatório</p>
+            </div>
+            
+            <div class="container">
+                <input class="input" type="email" name="email" id="email" placeholder="Email *">
+                <p class="mensagem-erro">campo obrigatório</p>
+            </div>
+    
+            <div class="container">
+                <input class="input" type="number" name="telefone" id="telefone" placeholder="Telefone *">
+                <p class="mensagem-erro">campo obrigatório</p>
+            </div>
+    
+            <div class="container">
+                <textarea class="input" type="text" name="mensagem" id="mensagem" cols="40" rows="5" placeholder="Mensagem *"></textarea>
+                <p class="mensagem-erro none">campo obrigatório</p>
+            </div>
+    
+            <p>*campos obrigatórios</p>
+    
+            <input class="btn-enviar" type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
