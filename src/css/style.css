@@ -33,7 +33,7 @@ main .formulario{
     margin-left: 60px;
 }
 
-main .formulario .input,
+main .formulario .container .input,
 main .formulario .btn-enviar{
     width: 100%;
     border: 1px solid #000;
@@ -43,30 +43,30 @@ main .formulario .btn-enviar{
     font-weight: 700;
 }
 
+main .formulario .container.input{
+    height: 50px;
+}
+
+main .formulario .container.input .input{
+    height: 35px;
+}
+
 main .formulario .input::placeholder{
     color: #A8A8A8;
 }
 
-
 main .formulario .container .mensagem-erro{
-    font-size: 8px;
-    margin-bottom: 6px;
-    color: #fff;
-}
-
-main .formulario .container .mensagem-erro.none{
     display: none;
-}
-main .formulario .container.erro .input{
-    border: 1px solid #F52E2E;
+    font-size: 8px;
+    color: #F52E2E;
+    font-weight: 400;
 }
 
-main .formulario .container.erro .mensagem-erro{
-    color: #F52E2E;
+main .formulario .container .mensagem-erro.ativa{
     display: block;
 }
 
-main .formulario .container.preenchido .input{
+main .formulario .container .input.valido{
     border: 1px solid #00C22B;
 }
     

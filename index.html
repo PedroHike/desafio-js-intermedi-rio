@@ -21,27 +21,27 @@
             <p class="mensagem-suporte">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
         </div>
         <form class="formulario" action="index.html" method="get">
-            <div class="container">
+            <div class="container input">
                 <input class="input" type="text" name="nome" id="nome" placeholder="Nome completo *">
                 <p class="mensagem-erro">campo obrigatório</p>
             </div>
             
-            <div class="container">
+            <div class="container input">
                 <input class="input" type="email" name="email" id="email" placeholder="Email *">
                 <p class="mensagem-erro">campo obrigatório</p>
             </div>
     
-            <div class="container">
+            <div class="container input">
                 <input class="input" type="number" name="telefone" id="telefone" placeholder="Telefone *">
                 <p class="mensagem-erro">campo obrigatório</p>
             </div>
     
             <div class="container">
-                <textarea class="input" type="text" name="mensagem" id="mensagem" cols="40" rows="5" placeholder="Mensagem *"></textarea>
-                <p class="mensagem-erro none">campo obrigatório</p>
-            </div>
+                <textarea class="input valido" type="text" name="mensagem" id="mensagem" cols="40" rows="5" placeholder="Mensagem *"></textarea>
+                <p class="mensagem-erro">campo obrigatório</p>
+                <p>*campos obrigatórios</p>
+            </div>  
     
-            <p>*campos obrigatórios</p>
     
             <input class="btn-enviar" type="submit" value="Enviar">
         </form>
