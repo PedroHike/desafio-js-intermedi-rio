@@ -43,11 +43,11 @@ main .formulario .btn-enviar{
     font-weight: 700;
 }
 
-main .formulario .container.input{
+main .formulario .container.inputs{
     height: 50px;
 }
 
-main .formulario .container.input .input{
+main .formulario .container.inputs .input{
     height: 35px;
 }
 
@@ -68,6 +68,10 @@ main .formulario .container .mensagem-erro.ativa{
 
 main .formulario .container .input.valido{
     border: 1px solid #00C22B;
+}
+
+main .formulario .container .input.invalido{
+    border: 1px solid #F52E2E;
 }
     
 main .formulario .btn-enviar{
